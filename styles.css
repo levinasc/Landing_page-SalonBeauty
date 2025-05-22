@@ -231,6 +231,39 @@ header {
 }
 
 /* seção de slider */
+/* Ajustes do slider para celulares */
+@media (max-width: 480px) {
+  .hero-section {
+    height: 60vh; /* reduz a altura para caber melhor em telas pequenas */
+  }
+
+  .slider {
+    height: 100%;
+  }
+
+  .slide {
+    object-position: center top; /* foca mais na parte superior da imagem */
+    background-size: cover;
+  }
+
+  .container.text-center {
+    padding: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-section p.lead {
+    font-size: 1rem;
+  }
+
+  .hero-section .btn-primary {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
 .slider {
     position: absolute;
     width: 100%;
